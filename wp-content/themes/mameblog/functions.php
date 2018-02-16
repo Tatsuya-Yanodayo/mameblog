@@ -509,3 +509,8 @@ function hmenu_scripts() {
  wp_enqueue_script('hmenu', get_bloginfo('template_url').'/js/hmenu.js', array('jquery'));
 }
 add_action( 'wp_enqueue_scripts', 'hmenu_scripts' );
+
+function rellax_scripts() {
+ wp_enqueue_script('rellax', get_bloginfo('template_url').'/js/rellax.min.js', array('jquery'));
+}
+add_action( 'wp_enqueue_scripts', 'rellax_scripts' );

@@ -455,6 +455,7 @@ h3 {
   width: 66px;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  z-index: 2;
 }
 
 #arrow img {
@@ -474,6 +475,9 @@ h3 {
   justify-content: center;
   align-items: center;
   border-top: 3px solid #191919;
+  background-color: #f5f5f5;
+  position: relative;
+    z-index: 1;
 }
 
 #contents {
