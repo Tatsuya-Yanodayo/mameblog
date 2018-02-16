@@ -6,6 +6,9 @@
   <title>
     <?php wp_title('|', true, 'right'); bloginfo('name'); ?>
   </title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
 
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css">
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
