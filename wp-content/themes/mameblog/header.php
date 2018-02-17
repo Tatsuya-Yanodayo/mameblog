@@ -48,7 +48,7 @@
           <div id="tools-wrap" class="clearfix">
             <?php wp_nav_menu( array('menu' => 'mamenu', 'container' => '', 'menu_id' => 'category-list', 'menu_class' => 'clearfix')); ?>
             <div id="search-box"><i class="fa fa-search"></i><input type="text" placeholder="search..."></div>
-            <div class="sns_box nav-box clearfix">
+            <div class="sns_box nav-box clearfix" id="head_sns">
               <div class="sns_button twitter">
                 <a href="https://twitter.com/mame_ph" title="Tweet"><i class="fa fa-twitter"></i></a>
               </div>
