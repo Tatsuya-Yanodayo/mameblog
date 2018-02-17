@@ -263,7 +263,7 @@ h3 {
   /*
   display: flex;
   */
-   display: none;
+  display: none;
   height: 26px;
   text-align: center;
   align-items: center;
@@ -413,10 +413,10 @@ h3 {
 #visual-wrap {
   width: 100%;
   background-color: #f5f5f5;
-      overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #main-visual {
@@ -449,11 +449,12 @@ h3 {
 
 
 /* PC用 */
+
 @media (min-width: 960px) {
   #hmenu-cat-list {
     display: none;
   }
-  
+
   #hmenu-list {
     display: flex;
     height: 100%;
@@ -466,52 +467,47 @@ h3 {
   #hmenu-list li a {
     font-size: 30px;
   }
-  
+
   .hmenu_sns {
     display: none;
   }
-  
-  
-  
+
+
+
 }
 
 /* タブレット */
+
 @media screen and (max-width: 960px) and (min-width: 620px) {
-  
-  #search-box, #head_sns {
+
+  #tools-wrap {
     display: none;
   }
-  
-  #hmenu-cat-list {
-    display: none;
-  }
-  
-  #hmenu-list {
-    margin-top: 60px;
-  }
-  
+
+
   #fixed-nav {
     padding: 0 10px;
   }
-  
+
 }
 
 
 /* モバイル */
+
 @media screen and (max-width: 620px) and (min-width: 200px) {
-    
-#tools-wrap {
-  display: none;
-}
-  
+
+  #tools-wrap {
+    display: none;
+  }
+
   #fixed-nav {
     padding: 0 10px;
   }
-  
+
   #main-visual img {
-  height: 360px;
-  vertical-align: bottom;
-}
+    height: 360px;
+    vertical-align: bottom;
+  }
 
 }
 
@@ -530,7 +526,7 @@ h3 {
   border-top: 3px solid #191919;
   background-color: #f5f5f5;
   position: relative;
-    z-index: 1;
+  z-index: 1;
 }
 
 #contents {
