@@ -489,6 +489,7 @@ h3 {
     padding: 0 10px 0 16px;
   }
 
+
 }
 
 
@@ -862,6 +863,61 @@ footer {
 }
 
 
+/* PC */
+
+@media (min-width: 960px) {}
+
+/* タブレット */
+
+@media screen and (max-width: 960px) and (min-width: 620px) {
+
+  #footer-wrap {
+    margin: 0 16px;
+  }
+
+}
+
+
+/* モバイル */
+
+@media screen and (max-width: 620px) and (min-width: 200px) {
+
+  #footer-wrap {
+    width: 302px;
+    margin: 0 auto;
+        padding: 60px 0 20px;
+  }
+  
+  #footer-left {
+    float: initial;
+}
+  
+  #footer-left ul {
+    margin-top: 10px;
+}
+  
+  #about_us {
+    float: initial;
+  }
+  
+  #link {
+    float: initial;
+    margin-left: 0;
+        margin-top: 60px;
+}
+  
+  #footer-right {
+    position: static;
+float: initial;  
+  margin-top: 45px;
+  }
+  
+  .footer_sns_box {
+    margin-left: 0;
+  }
+  
+
+}
 
 
 
