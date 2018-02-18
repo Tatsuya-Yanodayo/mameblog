@@ -618,7 +618,7 @@ h3 {
   align-items: center;
   font-size: 24px;
   font-weight: 200;
-    margin: 30px 0 26px;
+  margin: 30px 0 26px;
   position: relative;
   z-index: 10;
 }
@@ -644,7 +644,7 @@ h3 {
   left: 0;
   bottom: 0;
   right: 0;
-      border-radius: 20px;
+  border-radius: 20px;
 }
 
 /*
@@ -663,6 +663,8 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  border-radius: 20px;
+
 }
 
 
@@ -886,37 +888,37 @@ footer {
   #footer-wrap {
     width: 302px;
     margin: 0 auto;
-        padding: 60px 0 20px;
+    padding: 60px 0 20px;
   }
-  
+
   #footer-left {
     float: initial;
-}
-  
+  }
+
   #footer-left ul {
     margin-top: 10px;
-}
-  
+  }
+
   #about_us {
     float: initial;
   }
-  
+
   #link {
     float: initial;
     margin-left: 0;
-        margin-top: 60px;
-}
-  
+    margin-top: 60px;
+  }
+
   #footer-right {
     position: static;
-float: initial;  
-  margin-top: 45px;
+    float: initial;
+    margin-top: 45px;
   }
-  
+
   .footer_sns_box {
     margin-left: 0;
   }
-  
+
 
 }
 
