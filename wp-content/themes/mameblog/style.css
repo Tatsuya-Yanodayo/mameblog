@@ -510,6 +510,15 @@ h3 {
     vertical-align: bottom;
   }
 
+  #arrow {
+    height: 48px;
+    width: 48px;
+  }
+
+  #arrow img {
+    width: 48px;
+  }
+
 }
 
 
