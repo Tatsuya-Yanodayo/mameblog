@@ -1148,13 +1148,14 @@ footer {
   color: #191919;
   font-size: 18px;
   font-weight: bold;
+  display: block;
 }
 
 #post_nav a::after {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: -3px;
   content: "";
   height: 3px;
   border-radius: 100%;

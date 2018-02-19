@@ -30,9 +30,9 @@
 
   <div id="post_nav" class="clearfix">
     <div id="next_post">
-      <?php next_post_link('%link','<i class="fa fa-angle-left"></i> Newer<br><span>%title</span>'); ?></div>
+      <?php next_post_link('%link','← Back<br><span>%title</span>'); ?></div>
     <div id="prev_post">
-      <?php previous_post_link('%link','Older <i class="fa fa-angle-right"></i><br><span>%title</span>'); ?></div>
+      <?php previous_post_link('%link','Next →<br><span>%title</span>'); ?></div>
   </div>
 
 </div>
