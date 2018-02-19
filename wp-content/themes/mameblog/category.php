@@ -19,7 +19,7 @@
 
         <div class="post art">
           <div class="post_eff"></div>
-          <a href="<?php the_permalink(); ?>" class="category-icon"><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?></a>
+          <a href="<?php the_permalink(); ?>" class="tag-icon"><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?></a>
           <div class="post-image">
             <div class="img-wrap">
               <?php if (has_post_thumbnail()) : ?>

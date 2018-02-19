@@ -3,7 +3,8 @@
 <div id="visual-wrap" class="rellax" data-rellax-speed="-7"><a id="main-visual" href="###"><img src="<?php echo get_template_directory_uri(); ?>/img/mainVisual2.png"></a></div>
 
 <script>
-	var rellax = new Rellax('.rellax');
+  var rellax = new Rellax('.rellax');
+
 </script>
 
 <div id="arrow"><a href="#contents"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.png"></a></div>
@@ -42,7 +43,6 @@
             <div class="tag-list-wrap">
               <?php the_tags('<ul class="tag-list"><li>','</li><li>','</li></ul>'); ?>
             </div>
-            </>
             <div class="update">
               <?php echo get_the_date(); ?>
             </div>
