@@ -592,14 +592,14 @@ h3 {
   color: #191919;
 }
 
-.post .category-icon {
+.post .tag-icon {
   color: #f5f5f5;
   -webkit-transition: .40s ease-in-out;
   -moz-transition: .40s ease-in-out;
   transition: .40s ease-in-out;
 }
 
-.post:hover .category-icon {
+.post:hover .tag-icon {
   color: #191919;
 }
 
@@ -621,7 +621,7 @@ h3 {
 
 
 
-.category-icon {
+.tag-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -756,15 +756,15 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
 
 .art {}
 
-.art .category-icon {}
+.art .tag-icon {}
 
 .culture {}
 
-.culture .category-icon {}
+.culture .tag-icon {}
 
 .trip {}
 
-.trip .category-icon {}
+.trip .tag-icon {}
 
 #read-more-wrap {
   width: 100%;
@@ -995,19 +995,17 @@ footer {
   width: 80px;
   height: 3px;
   background-color: #ff5247;
-  margin: 10px 0;
+  margin: 20px 0 10px;
   border-radius: 100%;
 }
 
 
 /* ========================================
-    tag.php用css
+    single.php用css
 ========================================= */
 
 #post_info_wrap {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: #191919;
@@ -1017,12 +1015,53 @@ footer {
   padding-top: 60px;
 }
 
+#post_info_padding_wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
 #post_title {
   font-weight: bold;
   font-size: 20px;
   margin: 0 auto;
-  padding: 0 20px;
   max-width: 800px;
+}
+
+#post_info_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#post_category {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#post_category_icon {
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+#post_tag_list {
+  margin-left: 20px;
+}
+
+#post_tag_list li {
+  font-size: 10px;
+  display: inline-block;
+  margin: 0 8px 0 0;
+  background-color: #444;
+  border-radius: 8px;
+  padding: 1px 4px;
+}
+
+#post_tag_list li:last-child {
+  margin-right: 0;
 }
 
 #entry_wrap {
