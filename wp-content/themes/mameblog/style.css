@@ -826,6 +826,22 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
 }
 
 
+/* モバイル */
+@media screen and (max-width: 620px) and (min-width: 200px) {
+
+  .wp-pagenavi {
+    width: 300px;
+  }
+
+  .wp-pagenavi > * {
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+  }
+
+}
+
+
 /* ========================================
     フッター
 ========================================= */
