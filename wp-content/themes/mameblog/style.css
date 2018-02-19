@@ -1044,8 +1044,8 @@ footer {
   position: relative;
   font-size: 18px;
   font-weight: bold;
-  width: fit-content;
   padding-bottom: 5px;
+  display: inline-block;
 }
 
 .entry h1::after {
