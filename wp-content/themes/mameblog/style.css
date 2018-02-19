@@ -1020,6 +1020,9 @@ footer {
 #post_title {
   font-weight: bold;
   font-size: 20px;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 800px;
 }
 
 #entry_wrap {
@@ -1057,7 +1060,7 @@ footer {
   height: 3px;
   border-radius: 100%;
   background-color: #ff5247;
-  
+
 }
 
 .entry a {
@@ -1109,14 +1112,14 @@ footer {
 }
 
 #post_nav a::after {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    content: "";
-    height: 3px;
-    border-radius: 100%;
-    background-color: #ff5247;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  border-radius: 100%;
+  background-color: #ff5247;
 }
 
 #post_nav a:hover span {
