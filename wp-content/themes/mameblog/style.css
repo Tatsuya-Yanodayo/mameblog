@@ -460,11 +460,11 @@ h3 {
   -ms-flex-align: center;
   align-items: center;
   padding-top: 60px;
-  height: 600px;
+  height: 520px;
 }
 
 #visual-wrap img {
-  height: 450px;
+  height: 380px;
   max-width: initial;
 }
 
@@ -563,11 +563,11 @@ h3 {
   #visual-wrap {
     background-image: url("./img/mainVisualBackMB.png");
     background-size: cover;
-    height: 360px;
+    height: 300px;
   }
   
   #visual-wrap img {
-    height: 260px;
+    height: 220px;
   }
 
   #arrow {
