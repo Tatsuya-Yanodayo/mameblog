@@ -442,6 +442,8 @@ h3 {
 
 
 #visual-wrap {
+  background-image: url("./img/mainVisualBack.png");
+  background-position: center center;
   width: 100%;
   background-color: #f5f5f5;
   overflow: hidden;
@@ -457,16 +459,12 @@ h3 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-#main-visual {
-  margin: 60px auto 0;
-  display: inline-block;
-}
-
-#main-visual img {
+  padding-top: 60px;
   height: 600px;
-  vertical-align: bottom;
+}
+
+#visual-wrap img {
+  height: 450px;
   max-width: initial;
 }
 
@@ -562,9 +560,14 @@ h3 {
     padding: 0 10px 0 16px;
   }
 
-  #main-visual img {
+  #visual-wrap {
+    background-image: url("./img/mainVisualBackMB.png");
+    background-size: cover;
     height: 360px;
-    vertical-align: bottom;
+  }
+  
+  #visual-wrap img {
+    height: 260px;
   }
 
   #arrow {
@@ -575,7 +578,7 @@ h3 {
   #arrow img {
     width: 48px;
   }
-
+  
 }
 
 

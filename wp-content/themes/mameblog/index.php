@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 
-<div id="visual-wrap" class="rellax" data-rellax-speed="-7"><a id="main-visual" href="###"><img src="<?php echo get_template_directory_uri(); ?>/img/mainVisual2.png"></a></div>
+<div id="visual-wrap" class="rellax" data-rellax-speed="-7">
+  <img src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.png">
+</div>
 
 <script>
   var rellax = new Rellax('.rellax');
