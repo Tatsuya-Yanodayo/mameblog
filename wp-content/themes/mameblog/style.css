@@ -535,9 +535,67 @@ h3 {
 
 @media screen and (max-width: 960px) and (min-width: 620px) {
 
+  #hmenu-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  #hmenu-cat-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 310px;
+    padding: 0 auto;
+    margin-top: 70px;
+  }
+
+  #hmenu-cat-list li {
+    width: 145px;
+    padding: 8px 0;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+  }
+
+  #hmenu-cat-list li a {
+    width: 100%;
+    display: block;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
   #tools-wrap {
     display: none;
   }
+
+  #hmenu-list {
+    width: 300px;
+    margin-top: 0;
+  }
+
+  #hmenu-list li {
+    position: relative;
+    margin: 20px 0;
+  }
+
+  #hmenu-list li::after {
+    position: absolute;
+    left: 115px;
+    width: 70px;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    border-radius: 100%;
+    background-color: #ff5247;
+  }
+
 
 
   #fixed-nav {
@@ -552,9 +610,68 @@ h3 {
 
 @media screen and (max-width: 620px) and (min-width: 200px) {
 
+  #hmenu-nav {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  #hmenu-cat-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 310px;
+    padding: 0 auto;
+    margin-top: 70px;
+  }
+
+  #hmenu-cat-list li {
+    width: 145px;
+    padding: 8px 0;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.95);
+    border-radius: 10px;
+  }
+
+  #hmenu-cat-list li a {
+    width: 100%;
+    display: block;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
   #tools-wrap {
     display: none;
   }
+
+  #hmenu-list {
+    width: 300px;
+    margin-top: 0;
+  }
+
+  #hmenu-list li {
+    position: relative;
+    margin: 20px 0;
+  }
+
+  #hmenu-list li::after {
+    position: absolute;
+    left: 115px;
+    width: 70px;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    border-radius: 100%;
+    background-color: #ff5247;
+  }
+
+
 
   #fixed-nav {
     padding: 0 10px 0 16px;
@@ -1092,7 +1209,6 @@ footer {
   .footer_sns_box {
     margin-left: 0;
   }
-
 
 }
 
