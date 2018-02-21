@@ -24,10 +24,15 @@
     </div>
     <div class="post_foot_wrap">
       <div class="post_foot_cat">
-        <i class="fa fa-folder"></i><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?>
+        <?php
+          $cat = get_the_category();
+          $cat_id = $cat[0]->cat_ID;
+          $link = get_category_link($cat_id);
+        ?>
+          <a href="<?php echo $link; ?>"><i class="fa fa-folder"></i><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?></a>
       </div>
       <div class="update">
-        <?php echo get_the_date(); ?>
+        <a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a>
       </div>
     </div>
   </div>

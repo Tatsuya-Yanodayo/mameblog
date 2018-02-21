@@ -565,7 +565,7 @@ h3 {
     background-size: cover;
     height: 300px;
   }
-  
+
   #visual-wrap img {
     height: 220px;
   }
@@ -578,7 +578,7 @@ h3 {
   #arrow img {
     width: 48px;
   }
-  
+
 }
 
 
@@ -671,28 +671,6 @@ h3 {
   color: #191919;
 }
 
-.post .tag-icon {
-  color: #f5f5f5;
-  -webkit-transition: .40s ease-in-out;
-  -o-transition: .40s ease-in-out;
-  transition: .40s ease-in-out;
-}
-
-.post:hover .tag-icon {
-  color: #191919;
-}
-
-.post h3 a {
-  color: #f5f5f5;
-  -webkit-transition: .40s ease-in-out;
-  -o-transition: .40s ease-in-out;
-  transition: .40s ease-in-out;
-}
-
-.post:hover h3 a {
-  color: #191919;
-}
-
 .post:first-child {}
 
 
@@ -712,10 +690,22 @@ h3 {
   align-items: center;
   font-size: 24px;
   font-weight: 200;
-  margin: 30px 0 26px;
+  margin-top: 30px;
+  padding-bottom: 26px;
   position: relative;
   z-index: 10;
   height: 36px;
+}
+
+.post .tag-icon {
+  color: #f5f5f5;
+  -webkit-transition: .40s ease-in-out;
+  -o-transition: .40s ease-in-out;
+  transition: .40s ease-in-out;
+}
+
+.post:hover .tag-icon {
+  color: #191919;
 }
 
 .post-image {
@@ -790,6 +780,17 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
   font-size: 14px;
 }
 
+.post .post-title a {
+  color: #f5f5f5;
+  -webkit-transition: .40s ease-in-out;
+  -o-transition: .40s ease-in-out;
+  transition: .40s ease-in-out;
+}
+
+.post:hover .post-title a {
+  color: #191919;
+}
+
 .post-bar {
   display: block;
   content: "";
@@ -846,6 +847,20 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
   font-size: 14px;
 }
 
+.post_foot_cat a {
+  -webkit-transition: .40s ease-in-out;
+  -o-transition: .40s ease-in-out;
+  transition: .40s ease-in-out;
+}
+
+.post:hover .post_foot_cat a {
+  color: #191919;
+}
+
+.post_foot_cat a:hover {
+  color: #ff5247!important;
+}
+
 .post_foot_cat i {
   margin-right: 5px;
 }
@@ -855,7 +870,16 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
   right: 0px;
   bottom: 0px;
   font-size: 12px;
+}
 
+.post .update a {
+  -webkit-transition: .40s ease-in-out;
+  -o-transition: .40s ease-in-out;
+  transition: .40s ease-in-out;
+}
+
+.post:hover .update a {
+  color: #191919;
 }
 
 /* カテゴリごとに色分け */
