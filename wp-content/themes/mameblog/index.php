@@ -9,7 +9,7 @@
 
 </script>
 
-<div id="arrow"><a href="#contents"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.png"></a></div>
+<div id="arrow"><a href="#contents-wrap"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.png"></a></div>
 <div id="contents-wrap">
   <div id="contents">
     <div id="posts">

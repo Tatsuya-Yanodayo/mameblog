@@ -514,3 +514,14 @@ function rellax_scripts() {
  wp_enqueue_script('rellax', get_bloginfo('template_url').'/js/rellax.min.js', array('jquery'));
 }
 add_action( 'wp_enqueue_scripts', 'rellax_scripts' );
+
+function scrollAnimation_scripts() {
+ wp_enqueue_script('scrollAnimation', get_bloginfo('template_url').'/js/scrollAnimation.js', array('jquery'));
+}
+add_action( 'wp_enqueue_scripts', 'scrollAnimation_scripts' );
+
+function easing_scripts() {
+ wp_enqueue_script('easing', 'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', array('jquery'));
+}
+add_action( 'wp_enqueue_scripts', 'easing_scripts' );
+
