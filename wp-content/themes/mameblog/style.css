@@ -441,7 +441,11 @@ h3 {
 
 
 
-#visual-wrap {
+#visual_wrap {
+  position: relative;
+}
+
+#visual_img {
   background-image: url("./img/mainVisualBack.png");
   background-position: center center;
   width: 100%;
@@ -459,11 +463,11 @@ h3 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 60px;
+  padding: 60px 0 25px;
   height: 580px;
 }
 
-#visual-wrap img {
+#visual_img img {
   height: 390px;
   max-width: initial;
 }
@@ -477,9 +481,10 @@ h3 {
   height: 66px;
   width: 66px;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  bottom: -10px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 2;
 }
 
@@ -713,19 +718,20 @@ h3 {
     padding: 0 10px 0 16px;
   }
 
-  #visual-wrap {
+  #visual_img {
     background-image: url("./img/mainVisualBackMB.png");
     background-size: cover;
     height: 300px;
   }
 
-  #visual-wrap img {
+  #visual_img img {
     height: 220px;
   }
 
   #arrow {
     height: 48px;
     width: 48px;
+    bottom: 0px;
   }
 
   #arrow img {
@@ -745,7 +751,7 @@ h3 {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px 0 60px;
+  padding-bottom: 60px;
   width: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -759,7 +765,6 @@ h3 {
   background-color: #e5e5e5;
   position: relative;
   z-index: 1;
-  margin-top: 25px;
 }
 
 #svg_wrap {
@@ -1131,7 +1136,7 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
 /* モバイル */
 
 @media screen and (max-width: 620px) and (min-width: 200px) {
-  
+
   #svg_wrap {
     top: -32px;
   }

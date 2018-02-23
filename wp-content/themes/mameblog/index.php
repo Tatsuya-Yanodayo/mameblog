@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 
-<div id="visual-wrap" class="rellax" data-rellax-speed="-7">
-  <img src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.png">
+<div id="visual_wrap">
+  <div id="visual_img" class="rellax" data-rellax-speed="-7">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.png">
+  </div>
+  <div id="arrow"><a href="#contents-wrap"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.png"></a></div>
 </div>
 
 <script>
@@ -9,7 +12,7 @@
 
 </script>
 
-<div id="arrow"><a href="#contents-wrap"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.png"></a></div>
+
 <div id="contents-wrap">
   <div id="svg_wrap">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 100" preserveAspectRatio="none" id="svg-bg1">
