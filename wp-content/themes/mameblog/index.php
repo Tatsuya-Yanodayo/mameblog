@@ -12,11 +12,11 @@
 <div id="arrow"><a href="#contents-wrap"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.png"></a></div>
 <div id="contents-wrap">
   <div id="svg_wrap">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 50" preserveAspectRatio="none" id="svg-bg1">
-      <path d="M0,50 v-25 q50,20 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 v25 Z" fill="#191919"></path>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 100" preserveAspectRatio="none" id="svg-bg1">
+      <path d="M0,100 v-85 q50,15 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 v85 Z" fill="#191919"></path>
     </svg>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 50" preserveAspectRatio="none" id="svg-bg2">
-      <path d="M0,50 v-21 q50,20 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 v21 Z" fill="#e5e5e5"></path>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 100" preserveAspectRatio="none" id="svg-bg2">
+      <path d="M0,100 v-81 q50,15 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 v81 Z" fill="#e5e5e5"></path>
     </svg>
   </div>
   <div id="contents">

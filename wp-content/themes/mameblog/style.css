@@ -764,11 +764,16 @@ h3 {
 
 #svg_wrap {
   position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
-  top: -48px;
-  height: 50px;
-  left: 0;
+  top: -38px;
+  height: 100px;
   width: 100%;
   overflow: hidden;
 }
@@ -1126,6 +1131,18 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
 /* モバイル */
 
 @media screen and (max-width: 620px) and (min-width: 200px) {
+  
+  #svg_wrap {
+    top: -32px;
+  }
+
+  #svg-bg1 {
+    width: 800px;
+  }
+
+  #svg-bg2 {
+    width: 800px;
+  }
 
   .post {
     width: 65%;
