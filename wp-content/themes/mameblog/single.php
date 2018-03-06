@@ -4,9 +4,9 @@
 
 <div id="post_info_wrap">
   <div id="post_info_padding_wrap">
-    <h2 id="post_title">
+    <h1 id="post_title">
       <?php the_title(); ?>
-    </h2>
+    </h1>
     <span id="line"></span>
     <div id="post_info_flex">
       <div id="post_category">

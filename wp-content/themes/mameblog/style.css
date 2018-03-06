@@ -1535,21 +1535,26 @@ footer {
   padding: 60px 20px;
 }
 
+
+/* ---- 記事内cssここから ---- */
+
 .entry {
+  position: relative;
   width: 100%;
   font-size: 14px;
   line-height: 30px;
 }
 
-.entry h1 {
+.entry h2 {
   position: relative;
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 5px;
   display: inline-block;
+  margin: 40px 0 15px;
 }
 
-.entry h1::after {
+.entry h2::after {
   position: absolute;
   left: 0;
   right: 0;
@@ -1558,7 +1563,16 @@ footer {
   height: 3px;
   border-radius: 100%;
   background-color: #ff5247;
+}
 
+.entry h3 {
+  font-size: 16px;
+  margin: 15px 0 5px;
+  font-weight: 500;
+}
+
+.entry h3::first-letter {
+  color: #ff5247;
 }
 
 .entry a {
@@ -1573,6 +1587,60 @@ footer {
   border-bottom: 1px solid #ff5247;
   padding-bottom: 2px;
 }
+
+.entry table {
+  margin: 30px 0;
+}
+
+.entry th,
+.entry td {
+  padding-bottom: 10px;
+  vertical-align: top;
+}
+
+.entry th {
+  font-size: 14px;
+  padding-right: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.entry td {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 620px) and (min-width: 200px) {
+
+  .entry table {
+    display: block;
+    margin: 20px 0;
+    height: auto!important;
+    width: auto!important;
+  }
+
+  .entry th,
+  .entry td {
+    display: block;
+    padding-bottom: 0;
+    vertical-align: initial;
+  }
+
+  .entry th {
+    font-size: 14px;
+    padding-right: 0;
+    font-weight: 500;
+    white-space: initial;
+    padding-top: 10px;
+  }
+
+  .entry td {
+    font-size: 12px;
+  }
+
+}
+
+
+/* ---- 記事内cssここまで ---- */
 
 #entry_line {
   display: block;
@@ -1986,25 +2054,3 @@ footer {
 
 }
 
-
-/* ========================================
-    準備中about.php用
-========================================= */
-
-#junbi {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-top: 60px;
-  height: 100vh;
-  color: #191919;
-}
