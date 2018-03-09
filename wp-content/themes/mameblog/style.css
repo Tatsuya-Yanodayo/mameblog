@@ -1622,6 +1622,7 @@ footer {
   border-radius: 20px;
   padding: 35px 40px;
   margin: 20px 0;
+  font-size: 12px;
 }
 
 .entry blockquote::before {
