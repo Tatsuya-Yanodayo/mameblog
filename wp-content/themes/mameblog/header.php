@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>
-    <?php wp_title('|', true, 'right'); bloginfo('name'); ?>
-  </title>
-  
+
+  <meta name="keywords" content="">
+  <meta name="description" content="<?php bloginfo('description'); ?>">
+  <meta name="author" content="Mami Matsumoto">
+
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
 
