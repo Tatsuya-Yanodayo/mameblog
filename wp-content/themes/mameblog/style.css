@@ -785,12 +785,12 @@ h3 {
 
 #svg-bg1 {
   position: absolute;
-  width: 1600px;
+  width: 100%;
 }
 
 #svg-bg2 {
   position: absolute;
-  width: 1600px;
+  width: 100%;
 }
 
 #contents {
