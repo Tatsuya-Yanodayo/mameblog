@@ -48,7 +48,7 @@
         <div id="left-wrap">
           <div id="site-title">
             <div id="title">
-              <a href="<?php echo home_url('/') ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/title.png"></a>
+              <a href="<?php echo home_url('/') ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/title.svg"></a>
             </div>
           </div>
           <div id="tools-wrap" class="clearfix">
