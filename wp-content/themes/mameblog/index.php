@@ -2,9 +2,9 @@
 
 <div id="visual_wrap">
   <div id="visual_img" class="rellax" data-rellax-speed="-7">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.svg">
   </div>
-  <div id="arrow"><a href="#contents-wrap"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.png"></a></div>
+  <div id="arrow"><a href="#contents-wrap"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.svg"></a></div>
 </div>
 
 <script>
@@ -16,7 +16,7 @@
 <div id="contents-wrap">
   <div id="svg_wrap">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 100" preserveAspectRatio="none" id="svg-bg1">
-      <path d="M0,100 v-85 q50,15 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 v85 Z" fill="#191919"></path>
+      <path d="M0,100 v-83 q50,15 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 v85 Z" fill="#191919"></path>
     </svg>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 100" preserveAspectRatio="none" id="svg-bg2">
       <path d="M0,100 v-81 q50,15 100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 t100,0 v81 Z" fill="#e5e5e5"></path>
