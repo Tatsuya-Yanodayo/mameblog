@@ -21,7 +21,7 @@ Template Name: about
 
   <div id="about_contents">
     <div id="about_main_content">
-      <img id="about_logo_img" src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.png">
+      <img id="about_logo_img" src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.svg">
       <div id="about_main_wrap">
 
         <h3>Mission ルーツ・物語を紡ぎ、世界をもっと面白くする。</h3>
