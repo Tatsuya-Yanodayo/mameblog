@@ -18,6 +18,14 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2795765966699483",
+    enable_page_level_ads: true
+  });
+</script>
+
 
 
   <?php wp_head(); ?>
