@@ -44,7 +44,7 @@
         <?php wp_nav_menu( array('menu' => 'hmenu', 'container' => '', 'menu_id' => 'hmenu-list', 'menu_class' => '')); ?>
         <div class="nav-box hmenu_sns clearfix">
           <div class="sns_button twitter">
-            <a href="https://twitter.com/mame_ph" target="_blank" title="Tweet"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/art_rootbox" target="_blank" title="Tweet"><i class="fa fa-twitter"></i></a>
           </div>
           <div class="sns_button facebook">
             <a href="https://www.facebook.com/mamimatsumoto4630" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -66,7 +66,7 @@
             <div id="search-box"><i class="fa fa-search"></i><input type="text" placeholder="search..."></div>
             <div class="sns_box nav-box clearfix" id="head_sns">
               <div class="sns_button twitter">
-                <a href="https://twitter.com/mame_ph" title="Tweet"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/art_rootbox" title="Tweet"><i class="fa fa-twitter"></i></a>
               </div>
               <div class="sns_button facebook">
                 <a href="https://www.facebook.com/mamimatsumoto4630" title="Facebook"><i class="fa fa-facebook"></i></a>
