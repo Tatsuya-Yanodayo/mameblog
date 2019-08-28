@@ -13,7 +13,7 @@
     <div id="footer-right">
       <div class="footer_sns_box nav-box clearfix">
         <div class="sns_button twitter">
-          <a href="https://twitter.com/mame_ph" title="Tweet"><i class="fa fa-twitter"></i></a>
+          <a href="https://twitter.com/art_rootbox" title="Tweet"><i class="fa fa-twitter"></i></a>
         </div>
         <div class="sns_button facebook">
           <a href="https://www.facebook.com/mamimatsumoto4630" title="Facebook"><i class="fa fa-facebook"></i></a>
