@@ -18,6 +18,16 @@
   <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+<!--google adsens-->
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2795765966699483",
+    enable_page_level_ads: true
+  });
+</script>
+
 
 
   <?php wp_head(); ?>
@@ -34,7 +44,7 @@
         <?php wp_nav_menu( array('menu' => 'hmenu', 'container' => '', 'menu_id' => 'hmenu-list', 'menu_class' => '')); ?>
         <div class="nav-box hmenu_sns clearfix">
           <div class="sns_button twitter">
-            <a href="https://twitter.com/mame_ph" target="_blank" title="Tweet"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/art_rootbox" target="_blank" title="Tweet"><i class="fa fa-twitter"></i></a>
           </div>
           <div class="sns_button facebook">
             <a href="https://www.facebook.com/mamimatsumoto4630" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
@@ -56,7 +66,7 @@
             <div id="search-box"><i class="fa fa-search"></i><input type="text" placeholder="search..."></div>
             <div class="sns_box nav-box clearfix" id="head_sns">
               <div class="sns_button twitter">
-                <a href="https://twitter.com/mame_ph" title="Tweet"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/art_rootbox" title="Tweet"><i class="fa fa-twitter"></i></a>
               </div>
               <div class="sns_button facebook">
                 <a href="https://www.facebook.com/mamimatsumoto4630" title="Facebook"><i class="fa fa-facebook"></i></a>
