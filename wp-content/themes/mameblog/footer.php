@@ -27,6 +27,9 @@
   </div>
   <!-- footer-wrap -->
 </footer>
+
+</div><!--ローダーの中身 main-contents-->
+</div><!--ローダーの中身 wrapper-->
 </body>
 
 </html>

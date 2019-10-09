@@ -28,15 +28,27 @@
   });
 </script>
 
-
-
   <?php wp_head(); ?>
 
 
 
 </head>
 
-<body>
+<body id="body">
+
+  <!-- ローダー -->
+  <div id="loader-bg">
+    <div id="loading">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/load.gif">
+    </div>
+  </div><!-- //ローダー -->
+
+
+<!-- ローダーの中身 -->
+  <div id="main-contents">
+    <div id="wrapper-load">
+
+
   <header>
     <div id="nav-wrap">
       <div id="hmenu-nav">
