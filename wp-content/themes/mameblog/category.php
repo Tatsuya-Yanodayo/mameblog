@@ -5,6 +5,7 @@
     <?php single_cat_title(); ?>
   </h2>
   <span id="line"></span>
+ 
 </div>
 <div id="contents-wrap">
   <div id="contents">

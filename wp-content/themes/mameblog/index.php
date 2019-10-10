@@ -2,7 +2,7 @@
 
 <div id="visual_wrap">
   <div id="visual_img" class="rellax" data-rellax-speed="-7">
-    <img src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.svg">
+    <img src="<?php echo get_template_directory_uri(); ?>/img/mainVisualLogo.svg" class="effect-fade">
   </div>
   <div id="arrow"><a href="#contents-wrap"><img src="<?php echo get_template_directory_uri(); ?>/img/arrow.svg"></a></div>
 </div>
@@ -11,6 +11,8 @@
   var rellax = new Rellax('.rellax');
 
 </script>
+
+
 
 
 <div id="contents-wrap">

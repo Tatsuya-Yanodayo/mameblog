@@ -502,6 +502,12 @@ function custom_attribute( $html ){
     return $html;
 }
 
+//オリジナルJS by Mami
+function script_scripts() {
+ wp_enqueue_script('script', get_bloginfo('template_url').'/js/script.js', array('jquery'));
+}
+add_action( 'wp_enqueue_scripts', 'script_scripts' );
+
 
 
 

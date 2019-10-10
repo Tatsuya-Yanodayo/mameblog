@@ -1,3 +1,4 @@
+
 jQuery(function(){
 	jQuery('a[href^=#]').click(function(){
 		var speed = 1400;
