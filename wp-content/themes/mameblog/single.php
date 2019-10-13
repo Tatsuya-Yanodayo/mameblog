@@ -35,6 +35,41 @@
       <?php previous_post_link('%link','Next →<br><span>%title</span>'); ?></div>
   </div>
 
+<aside class="relatedkiji">
+  <h2>関連記事</h2>
+     <div id="posts">
+  <?php if(has_category() ) {
+    $cats =get_the_category();
+    $catkwds = array();
+    foreach($cats as $cat){
+         $catkwds[] = $cat->term_id;
+    }
+  } ?>
+  <?php $args = array(
+      'post_type' => 'post',
+      'posts_per_page' => '4',
+      'post__not_in' =>array( $post->ID ),
+      'category__in' => $catkwds,
+      'orderby' => 'rand'
+    );
+  $my_query = new WP_Query( $args );?>
+    <?php while ( $my_query->have_posts() ) : $my_query->the_post(); ?>
+
+    <!--  記事一個分 -->
+   
+    <?php get_template_part('postloop'); ?>
+  
+    <!--  記事一個分終わり -->
+
+    <?php endwhile; ?>
+  <?php wp_reset_postdata(); ?>
 </div>
+</aside>
+
+
+
+</div>
+
+
 
 <?php get_footer(); ?>
