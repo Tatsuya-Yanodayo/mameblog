@@ -37,10 +37,13 @@
 
    <span id="entry_line"></span>
 
+    <?php echo do_shortcode('[addtoany]'); ?>
 
 
 <aside class="relatedkiji">
+  <div class="recomend-wrap">
   <h2 class="recomend">おすすめ記事</h2>
+</div>
      <div id="posts">
   <?php if(has_category() ) {
     $cats =get_the_category();
