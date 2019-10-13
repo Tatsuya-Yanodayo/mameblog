@@ -10,8 +10,14 @@
     <span id="line"></span>
     <div id="post_info_flex">
       <div id="post_category">
+
+        <a href="<?php echo $link; ?>">
         <i id="post_category_icon" class="fa fa-folder"></i>
-        <?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->cat_name; } ?>
+        <?php $cat = get_the_category();
+        $cat = $cat[0];
+        { echo $cat->cat_name; } ?>
+      </a>
+      
       </div>
       <?php the_tags('<ul id="post_tag_list"><li>','</li><li>','</li></ul>'); ?>
     </div>
