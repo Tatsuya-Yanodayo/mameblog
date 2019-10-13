@@ -23,7 +23,7 @@
   <div class="entry">
     <?php the_content(); ?>
   </div>
-  <span id="entry_line"></span>
+ 
   <div id="time_wrap"><time datetime="<?php the_time('Y-m-d'); ?>">Post on <?php the_time('Y.m.d'); ?></time></div>
 
   <?php endwhile; endif; ?>
@@ -35,8 +35,12 @@
       <?php previous_post_link('%link','Next →<br><span>%title</span>'); ?></div>
   </div>
 
+   <span id="entry_line"></span>
+
+
+
 <aside class="relatedkiji">
-  <h2>関連記事</h2>
+  <h2 class="recomend">おすすめ記事</h2>
      <div id="posts">
   <?php if(has_category() ) {
     $cats =get_the_category();
