@@ -1850,7 +1850,9 @@ footer {
   width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;
-  font-size: 16px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #post_nav {
@@ -1888,6 +1890,8 @@ footer {
 #post_nav a span {
   font-size: 14px;
   font-weight: initial;
+  display: block;
+  padding: 10px 0;
 }
 
 #prev_post {
