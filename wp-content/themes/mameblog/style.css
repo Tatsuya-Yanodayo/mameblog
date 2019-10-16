@@ -1735,7 +1735,12 @@ footer {
 
 /* ---- 記事下cssここから ---- */
 
+.recomend-wrap{
+  text-align: center;
+}
+
 .recomend{
+  position: relative;
    font-size: 24px;
   font-weight: bold;
   padding-bottom: 5px;
@@ -1745,13 +1750,31 @@ footer {
   font-family:"Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", sans-serif;
 }
 
-.recomend::first-letter {
+/* .recomend::first-letter {
   color: #ff5247;
+} */
+
+.recomend::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  height: 3px;
+  border-radius: 100%;
+  background-color: #ff5247;
 }
 
 /* ---- シェアボタン ---- */
 
+.addtoany_share_save_container{
+  text-align:center;
+  padding:20px;
+}
 
+.addtoany_shortcode{
+  padding: 50px;
+}
 
 
 
