@@ -16,7 +16,7 @@
     $tags = explode("delimiter", $cat_tag_list);
     $unique_tags = array_unique($tags);
     array_splice($unique_tags, 0, 1);
-    $cat_tag_list_html = '<ul class="tag-list">';
+    $cat_tag_list_html = '<ul class="tag-list-c">';
     foreach($unique_tags as $tag) {
         $cat_tag_list_html .= "<li>" . $tag . "</li>";
     }
@@ -32,7 +32,7 @@
   </h2>
   <span id="line"></span>
 
-  <div class="tag-list-wrap">
+  <div class="tag-list-wrap-c">
     <?php echo $cat_tag_list_html ?>
   </div> 
 
