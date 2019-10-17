@@ -2,8 +2,27 @@
 
 <?php get_header(); ?>
 
+<!--タグ一覧のHTML取得 php -->
+<?php
+    if ( have_posts() ) : while ( have_posts() ) : the_post();
+    $cat_tag_list .= get_the_tag_list('delimiter','delimiter',''); 
 
+    endwhile;
 
+    else:
+
+    endif;
+
+    $tags = explode("delimiter", $cat_tag_list);
+    $unique_tags = array_unique($tags);
+    array_splice($unique_tags, 0, 1);
+    $cat_tag_list_html = '<ul class="tag-list">';
+    foreach($unique_tags as $tag) {
+        $cat_tag_list_html .= "<li>" . $tag . "</li>";
+    }
+    $cat_tag_list_html .= "</ul>";
+
+?><!--//タグ一覧のHTML取得 php -->
 
 
 
