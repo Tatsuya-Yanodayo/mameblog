@@ -527,7 +527,7 @@ function scrollAnimation_scripts() {
 add_action( 'wp_enqueue_scripts', 'scrollAnimation_scripts' );
 
 function easing_scripts() {
- wp_enqueue_script('easing', 'http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', array('jquery'));
+ wp_enqueue_script('easing', 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', array('jquery'));
 }
 add_action( 'wp_enqueue_scripts', 'easing_scripts' );
 
