@@ -11,6 +11,13 @@
     <div id="post_info_flex">
       <div id="post_category">
 
+       <!--  ここで下記aタグ内の文字列を出力！ -->
+         <?php
+          $cat = get_the_category();
+          $cat_id = $cat[0]->cat_ID;
+          $link = get_category_link($cat_id);
+        ?>
+
         <a href="<?php echo $link; ?>">
         <i id="post_category_icon" class="fa fa-folder"></i>
         <?php $cat = get_the_category();
