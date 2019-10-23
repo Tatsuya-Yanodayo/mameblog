@@ -1029,6 +1029,7 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
   -ms-transition: .25s ease-out;
 }
 
+/* サムネイルの中のタグリストCSS */
 .tag-list-wrap {
   position: relative;
   font-size: 0px;
@@ -1036,6 +1037,7 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
   height: 20px;
   opacity: 0.8;
   margin-top: 10px;
+  height: auto;
 }
 
 .tag-list li {
@@ -1050,6 +1052,45 @@ http://blackwhite.sakura.ne.jp/wp/2017/03/11/%E3%81%A9%E3%82%93%E3%81%AA%E3%82%B
 }
 
 .tag-list li a {}
+
+
+/* カテゴリーページ上部のタグリストCSS */
+.tag-list-wrap-c {
+  position: relative;
+  font-size: 0px;
+  overflow: hidden;
+  height: 20px;
+  opacity: 0.8;
+  margin-top: 10px;
+  width: 60%;
+  height: auto;
+}
+
+.tag-list-c {
+text-align: center;
+}
+
+.tag-list-c li {
+  position: relative;
+  font-size: 10px;
+  display: inline-block;
+  margin: 0px 8px 4px 0px;
+  z-index: 2000;
+  background-color: #444;
+  border-radius: 8px;
+  padding: 1px 4px;
+}
+
+.tag-list-c li a {}
+
+
+@media screen and (max-width: 620px) and (min-width: 200px) {
+  .tag-list-wrap-c {
+    width: 90%;
+  }
+}
+
+
 
 .post_foot_wrap {
   position: relative;
