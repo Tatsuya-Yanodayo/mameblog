@@ -79,13 +79,13 @@
             <div id="search-box"><i class="fa fa-search"></i><input type="text" placeholder="search..."></div>
             <div class="sns_box nav-box clearfix" id="head_sns">
               <div class="sns_button twitter">
-                <a href="https://twitter.com/art_rootbox" title="Tweet"><i class="fa fa-twitter"></i></a>
+                <a href="https://twitter.com/omame_creator" title="Tweet"><i class="fa fa-twitter"></i></a>
               </div>
               <div class="sns_button facebook">
-                <a href="https://www.facebook.com/mamimatsumoto4630" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.facebook.com/omame.creator" title="Facebook"><i class="fa fa-facebook"></i></a>
               </div>
               <div class="sns_button instagram">
-                <a href="https://www.instagram.com/mami_matsumoto_ph/" title="Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.instagram.com/omame_creator/" title="Instagram"><i class="fa fa-instagram"></i></a>
               </div>
             </div>
           </div>
